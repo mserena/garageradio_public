@@ -1,0 +1,24 @@
+{
+    "loadingPhrases" : [
+        "Relax while we search for the best radio stations in cyberspace.",
+        "Just a second, a life without music is a body without a soul.",
+        "We are reaching the ends of space to connect with the best stations.",
+        "It's almost there, Without music, life would be a mistake.",
+        "Wait a little, we are finding the best for your ears.",
+        "Give us a little more time, music is the true universal language.",
+        "We should consider the day in which we have not danced as a lost day."
+    ],
+    "radioServerDefault" : "https://de1.api.radio-browser.info/",
+    "notifications" : [
+        {
+            "type" : "connectionError",
+            "time" : 4,
+            "text" : "Houston, we have a problem! Cannot connect to this station, but you can try another."
+        },
+        {
+            "type" : "unknownError",
+            "time" : 4,
+            "text" : "Something has gone wrong."
+        }
+    ]
+}
